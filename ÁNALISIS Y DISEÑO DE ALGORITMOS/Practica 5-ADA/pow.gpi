@@ -1,0 +1,12 @@
+#ANDREA GÓMEZ BOBES
+set terminal png
+set output "pow2.png" 
+
+set xlabel "Valor de n"
+set ylabel "Numero de pasos"
+
+set title  "Comparacion potencia de 2"
+plot "pow2" using 1:2 with lines title "pow2_1" ,\
+    "pow2" using 1:3 with lines title "pow2_2" ,\
+    "pow2" using 1:4 with lines title "pow2_3",\
+
